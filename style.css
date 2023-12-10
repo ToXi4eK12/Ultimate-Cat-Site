@@ -1,8 +1,8 @@
 body{
     background: linear-gradient(to right,#161616,65%,#008867)no-repeat;
-    height: 100%;
+    height: auto;
     background-attachment: fixed;
-    width: 90%;
+    width: auto;
 }
 .top{
     top: 0px;
