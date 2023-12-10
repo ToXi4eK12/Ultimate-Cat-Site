@@ -3,6 +3,7 @@ body{
     height: auto;
     background-attachment: fixed;
     width: auto;
+    display: inline-block;
 }
 .top{
     top: 0px;
@@ -85,7 +86,7 @@ article{
 }
 .blob{
     pointer-events: none;
-    position: absolute;
+    position: fixed;
     top: 250px;
     right: 10%;
     transform: scale(1,1);
