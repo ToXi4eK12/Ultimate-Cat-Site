@@ -1,0 +1,113 @@
+body{
+    background: linear-gradient(to right,#161616,65%,#008867)no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+    width: 90%;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.38);
+    z-index: 0;
+}
+nav{
+    top: 10px;
+    margin-left: 50px;
+    padding: 0;
+    position: fixed;
+    height: 0;
+    display: flex;
+}
+nav a{
+    padding-left: 50px;
+    color:white;
+    border-bottom: 2px solid transparent;
+    font-family: 'Dhurjati', sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    z-index: 50;
+}
+nav a:hover{
+    color: #00ac81;
+}
+article{
+    pointer-events: auto;
+    color: white;
+    margin-top: -30px;
+    font-size: 146px;
+    margin-left: 100px;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    z-index: 3;
+    max-width: 100%;
+    min-width: auto;
+}
+.aboutP{
+    pointer-events: auto;
+    max-width: 100%;
+    font-size: 126px;
+    margin-top: -180px;
+    z-index: 3;
+}
+.about{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 96px;
+    z-index: 3;
+}
+.bye{
+    margin-top:-100px;
+    margin-left:60px;
+    font-size: 100px;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    border-radius: 50px;
+    border: 0px;
+    border-color: #161616;
+    background:linear-gradient(to bottom,#161616,25%,#008867,90%,#91ffe4);
+    padding: 10px 50px;
+    transition:all 0.1s ease-out;
+    z-index: 1;
+}
+.bye:hover{
+    transform: translateY(-10px);
+    position: relative;
+}
+.blob{
+    pointer-events: none;
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    transform: scale(1,1);
+    transition: left 2s ease-in-out;
+    z-index: 2;
+
+}
+.BlobAbout{
+    background-color: transparent;
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    filter: blur(5px);
+    z-index: -1;
+}
+.BlobAbout2{
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    filter: blur(5px);
+    z-index: -1;
+    transform: scale(-1,1);
+}
+
