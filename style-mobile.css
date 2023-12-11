@@ -21,15 +21,18 @@ body{
     z-index: 0;
 }
 nav{
+    text-align: center;
     top: 10px;
-    margin-left: 50px;
+    justify-items: center;
     padding: 0;
     position: fixed;
     height: 0;
     display: flex;
+    width: 100%;
 }
 nav a{
-    padding-left: 50px;
+    text-align: center;
+    padding-left: 20px;
     color:white;
     border-bottom: 2px solid transparent;
     font-family: 'Dhurjati', sans-serif;
@@ -41,30 +44,32 @@ nav a:hover{
     color: #00ac81;
 }
 article{
+    text-align: center;
     pointer-events: auto;
     color: white;
     margin-top: -30px;
-    font-size: 146px;
-    margin-left: 100px;
+    font-size: 116px;
+    margin-left: 40px;
     font-family: 'PT Sans', sans-serif;
     display: flex;
     z-index: 3;
-    max-width: 100%;
+    max-width: auto;
     min-width: auto;
 }
 .aboutP{
     pointer-events: auto;
-    max-width: 100%;
-    font-size: 126px;
+    max-width: 80%;
+    font-size: 96px;
     margin-top: -180px;
     z-index: 3;
 }
 .about{
+    text-align: center;
     color: white;
     font-family: 'Kanit', sans-serif;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 80px;
-    font-size: 96px;
+    font-size: 86px;
     z-index: 3;
 }
 .bye{
@@ -78,7 +83,7 @@ article{
     border-color: #161616;
     background:linear-gradient(to bottom,#161616,25%,#008867,90%,#91ffe4);
     padding: 10px 50px;
-    transition:all 0.1s ease-out;
+    transition:all 0.2s ease-out;
     z-index: 1;
 }
 .bye:hover{
@@ -88,26 +93,26 @@ article{
 .blob{
     pointer-events: none;
     position: fixed;
-    top: 250px;
-    right: 10%;
+    right: -50%;
+    top: 25%;
     transform: scale(1,1);
     transition: right 2s ease-in-out;
-    z-index: 2;
+    z-index: -2;
 
 }
 .BlobAbout{
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     top: 15%;
-    right: 0%;
+    right: -40%;
     filter: blur(5px);
     z-index: -1;
 }
 .BlobAbout2{
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     top: 40%;
-    left: 0%;
+    left: -40%;
     filter: blur(5px);
     z-index: -1;
     transform: scale(-1,1);
